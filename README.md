@@ -20,3 +20,6 @@ Image('next/image")
 이미지 리사이징 및 최적화
 정적 이미지 사용할 때 매우 편하다. layout을 유용하게 사용하면 된다.
 사용할 때 몇몇 주의조건 (ex) layout="fill" 사용시 parent element가 position: relative 적용되어 있어야 한다 등) 공식문서 참조바람
+
+Metadata
+Head와 Script (써드파티 자바스크립트 사용) 그냥 둘다 최적화 해놓은 것
