@@ -3,9 +3,11 @@ import Image from "next/image"
 import Head from "next/head"
 import Script from "next/script"
 
+import Layout from "../../components/layout"
+
 const FirstPost = () => {
   return (
-    <>
+    <Layout>
       <Head>
         <title>First Post</title>
       </Head>
@@ -28,7 +30,7 @@ const FirstPost = () => {
         alt="df"
         objectFit="contain"
       />
-    </>
+    </Layout>
   )
 }
 

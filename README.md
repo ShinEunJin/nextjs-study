@@ -23,3 +23,7 @@ Image('next/image")
 
 Metadata
 Head와 Script (써드파티 자바스크립트 사용) 그냥 둘다 최적화 해놓은 것
+
+style
+next.js는 기본적으로 Sass, CSS Modules, styled-jsx가 내장되어 있고 emotion과 styled-components 라이브러리도 사용가능하다.
+CSS같은 경우 예시처럼 [파일이름].module.css로 만들 수 있고 사용법이 되게 편하다.
